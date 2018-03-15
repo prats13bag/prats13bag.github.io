@@ -1,55 +1,458 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Pratyush Bagaria</title>
-		<link rel="icon" src="favicon.ico" type="image/x-icon">
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]>
-		<script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
-
-				<!-- Header -->
-					<header id="header">
-						
-						
-						
-						<img src="Pratyush.JPG">
-						<p><font size="6"><span style="color:black;font-weight:bold">Pratyush Bagaria</span></font></p>
-						
-						<p><span style="color:white;font-weight:bold">MS in Computer Science, University of Illinois at Chicago (2017-present)
-						<br>Software Engineer, Tech Mahindra Limited (2014-2017)
-						<br>B.Tech in Computer Science & Engineering, Rajasthan Technical University (2010-2014)
-						</span></p>
-						<nav>
-						<ul>
-						
-						<li><a href="https://www.linkedin.com/in/pratyushbagaria" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/prats13bag" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:pratyush_bagaria@hotmail.com" class="icon fa-envelope-o" target="_blank"><span class="label">Email</span></a></li>
-						<li><a href="https://prats13bag.github.io/aboutme.html" class="icon fa-info"><span class="label">About Me</span></a></li>
-						
-						</ul>
-						</nav>
-					</header>
-			
+<head>
+<title>Pratyush Bagaria's Webpage</title>
+<link rel="icon" src="favicon.ico" type="image/x-icon">
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="About Me" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
+</head>
+<body>
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">About Me</a></li>
+						<li><a href="#work" class="scroll">Experience</a></li>
+						<li><a href="#education" class="scroll">Education</a></li>
+						<li><a href="#skills" class="scroll">Skills</a></li>
+						<li><a href="#projects" class="scroll">My Projects</a></li>
+						<li><a href="https://prats13bag.github.io/Pratyush_Bagaria_Resume.pdf" class="scroll">Resume (pdf)</a></li>
+					</ul>
+					
+				</div>
 			</div>
 		</div>
-	</body>
+	</div>	
+	<!--//top-nav-->
+    <!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+        
+			<div class="container">
+				<div class="col-md-4 header-left" >
+					<img style='height: 70%; width: 70%; object-fit: contain' src="images/Pratyush.jpg" alt="" vspace="25%"/>
+				</div>
+				<div class="col-md-8 header-right">
+					<h2>Hello !</h2>
+					<h1>I'm Pratyush Bagaria</h1>
+					<h6>Software Engineer and Developer</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>ADDRESS </b></li>
+								<li>704 S Claremont Ave., Apt. 2, Chicago, IL</li>
+							</ul>
+						</li>
+                        <li>
+							<ul class="address-text">
+								<li><b>PHONE </b></li>
+								<li>+1-312-838-6524</li>
+							</ul>
+						</li>
+                        <li>
+							<ul class="address-text">
+								<li><b>SKYPE </b></li>
+								<li>prats.bag</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>GITHUB </b></li>
+								<li><a href="https://github.com/prats13bag" target="_blank">https://github.com/prats13bag</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>LINKEDIN </b></li>
+								<li><a href="https://www.linkedin.com/in/pratyushbagaria" target="_blank">https://www.linkedin.com/in/pratyushbagaria</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:pbagar2@uic.edu">pbagar2@uic.edu</a> and <a href="mailto:pratyush_bagaria@hotmail.com">pratyush_bagaria@hotmail.com</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> About Me</h3>
+				<p>Pratyush is an Undergrad in Computer Science and Engineering from Global Institute of Technology (affiliated to Rajasthan Technical University) and had an association with Tech Mahindra Limited as a Software Engineer for over 3 long years. At present, he is one of the graduate students in Computer Science department of University of Illinois at Chicago.</p><br><p>He is a performance driven professional passionate about driving digital innovation through web, mobile and connected technologies. He believes to have mastered the theoretical and conceptual aspects of Object-Oriented Programming Principles, Data Structures, Computer Algorithms, Compiler Construction, Operating System and Database Queries.</p><br><p>He is in the process of finding himself a challenging job that would synergize his skills and knowledge with the objectives of the organization. Being a dedicated and focused individual, he is determined to add value to the organization or institution that he works for.</p><br><p>He likes reading biographies and autobiographies of inspirational persons. Whenever time permits he does like to play table tennis. He enjoys travelling to new places and explore about culture and food.</p>
+			
+			<div class="clearfix"> </div>
+		
+	</div>
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">Work Experience</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>August 2016 - July 2017</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> Tech Mahindra Ltd., India <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p> 01. Developed XML based test scripts for AT&T and T-Mobile as per requirements based on 3GPP standards on VoLTE, LTE, IMS, UMTS, GSM, CSFB, SRVCC technologies using Anite SAS Tools and Spirent’s CS8. <br> 02. Troubleshooting simulator software issues in both India and New Jersey Lab. <br> 03. Conducted training & workshops to biz. customers, colleagues & interns.<br> 04. Was awarded ‘Pat on Back’ & ‘Bravo’ for delivering quality work while meeting stringent deadlines and as a recoginition for my work being highly organised and self-explanatory in nature, respectively.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>June 2016 - July 2016</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> Tech Mahindra Ltd., Europe </h5>
+					<p>01. Log analysis (using QxDM), protocol performance debugging and to provide inputs for better and alternate solutions for the next releases of the software builds of non-commercial/debug builds to Apple Inc. (using Apple Bug Reporter) and Huawei Technologies Co. Ltd. <br>02. Won “Pat on Back” award for successful completion of the project with client appreciation.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>May 2014 - May 2016</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> Tech Mahindra Ltd., India <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p> 01. Underwent & completed foundation training program (ELITE), an intensive twelve-week training conducted by Tech Mahindra's Training & Learning Services, with Gold Certification and became one of the top performers. <br> 02. Developed XML based test scripts for AT&T and T-Mobile as per requirements based on 3GPP standards on VoLTE, LTE, IMS, UMTS, GSM, CSFB, SRVCC technologies using Anite SAS Tools. <br> 03. Awards: ‘Bravo’ for remarkable contribution to the department</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Jun 2013 - Jul 2013</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> Rance Computer Pvt. Ltd., India</h5>
+					<p>Summer Internship on HTML and CSS. Designed website of Micamac Incorporation as final project of the internship program.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">Education</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Master's Degree (Computer Science) - 2019</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> University of Illinois at Chicago</h5>
+					<p>Coursework: Database Systems, Object-Oriented Programming & Languages, Computer Algorithms - 1, Data Mining & Text Mining, Artificial Intelligence - 1, Database Management Systems</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>Bachelor's Degree (Computer Sci. & Engg.) - 2014</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> Rajasthan Technical University <span class="glyphicon glyphicon-education"></span></h5>
+					<p>Coursework: Principles of Programming Language, Software Engineering, Computer Architecture, Operating Systems, Computer Networks, Theory of Computation, Embedded System Design, Software Project Management, Compiler Comstruction, Mobile Computing, Information System Security, Distributed System, etc.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--skills-->
+	<div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">Skills</h3>
+			<div class="skills-info">
+				<div class="col-md-6 bar-grids">
+					<h6>C++<span> 99% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 99%">
+						</div>
+					</div>
+					<h6>Python<span> 80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>Java<span> 95% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+                    <h6>JUnit <span> 85% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+						</div>
+					</div>
+					<h6>JavAssist <span> 70% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 70%">
+						</div>
+					</div>
+                    <h6>Java Build Tools<span>99% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 99%">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 bar-grids">
+					<h6>Version Control System (Git) <span> 90% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 90%">
+						</div>
+					</div>
+					<h6>Software Design & Development <span> 75% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 75%">
+						</div>
+					</div>
+					<h6>SQL, PL/SQL<span> 95% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+					<h6>HTML, CSS<span> 85% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+						</div>
+					</div>
+                    <h6>Scala<span> 50% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 50%">
+						</div>
+					</div>
+					<h6>Functional Programming<span> 65% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 65%">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--portfolio-->
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Academic Projects</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>All</span></li>
+						<li class="resp-tab-item"><span>Completed</span></li>
+						<li class="resp-tab-item"><span>Ongoing</span></li>			
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/cms-java-application" target="_blank" Vclass="swipebox" title="The Contact Management System application based on Java is supposed to store basic details of employees associated with an organization. This application allows the user to add/remove/update and retrieve informations such as Address, Phone No., Email ID, Birthday and Anniversary of any person/employee. Application also allows the user to maintain a directory of reminders and can name it such as Team Meeting on some day with some person. Contact Management System is completely on Java Applet and therefore is a small java application.">
+											<img src="images/g1.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/Gmail-User-Agent" target="_blank" Vclass="swipebox" title="Mail User Agent (MUA) or an Email Client is a computer program used to access and manage a user's email. Like most client programs, an email client is only active when a user runs it. The most common examples of Email Clients are Mozilla Thunderbird, Microsoft Outlook. This Java application supports only gmail.">
+											<img src="images/g2.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/random-java-program-generator" target="_blank" Vclass="swipebox" title="A generator program that creates a syntactically correct but semantically meaningless random Java program on every run. The input to the generator program is a configuration file that defines various parameters that constrain the generation of the Java program.">
+											<img src="images/g3.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/artificial-intelligence-projects" target="_blank" Vclass="swipebox" title="These are the PacMan projects for Artificial Intelligence course which are available at - http://ai.berkeley.edu/project_overview.html by John DeNero, Dan Klein, Pieter Abbeel, and many others. This project along with the complete course was adapted by our professor here at University of Illinois at Chicago">
+											<img src="images/g4.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/ConstrainedMSApriori" target="_blank" Vclass="swipebox" title="A python implementation for MS Apriori algorithm to find frequent itemsets from a given set of transaction data and parameters with certain constraints">
+											<img src="images/g5.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="javascript:void(0);" Vclass="swipebox" title="The setup was deployed in my undergrad college library after successful implemtation. This system provides a 2-layer security in the physical access of the secured areas. Owner (Head Librarian) can grant/reject a person’s entry in secured area whenever a request is made from any geographic location in form of SMS">
+											<img src="images/g6.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="javascript:void(0);" Vclass="swipebox" title="Ride Sharing">
+											<img src="images/g7.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/cms-java-application" target="_blank" Vclass="swipebox" title="The Contact Management System application based on Java is supposed to store basic details of employees associated with an organization. This application allows the user to add/remove/update and retrieve informations such as Address, Phone No., Email ID, Birthday and Anniversary of any person/employee. Application also allows the user to maintain a directory of reminders and can name it such as Team Meeting on some day with some person. Contact Management System is completely on Java Applet and therefore is a small java application.">
+											<img src="images/g1.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/Gmail-User-Agent" target="_blank" Vclass="swipebox" title="Mail User Agent (MUA) or an Email Client is a computer program used to access and manage a user's email. Like most client programs, an email client is only active when a user runs it. The most common examples of Email Clients are Mozilla Thunderbird, Microsoft Outlook. This Java application supports only gmail.">
+											<img src="images/g2.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/random-java-program-generator" target="_blank" Vclass="swipebox" title="A generator program that creates a syntactically correct but semantically meaningless random Java program on every run. The input to the generator program is a configuration file that defines various parameters that constrain the generation of the Java program.">
+											<img src="images/g3.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/artificial-intelligence-projects" target="_blank" Vclass="swipebox" title="These are the PacMan projects for Artificial Intelligence course which are available at - http://ai.berkeley.edu/project_overview.html by John DeNero, Dan Klein, Pieter Abbeel, and many others. This project along with the complete course was adapted by our professor here at University of Illinois at Chicago">
+											<img src="images/g4.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prats13bag/ConstrainedMSApriori" target="_blank" Vclass="swipebox" title="A python implementation for MS Apriori algorithm to find frequent itemsets from a given set of transaction data and parameters with certain constraints">
+											<img src="images/g5.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="javascript:void(0);" Vclass="swipebox" title="The setup was deployed in my undergrad college library after successful implemtation. This system provides a 2-layer security in the physical access of the secured areas. Owner (Head Librarian) can grant/reject a person’s entry in secured area whenever a request is made from any geographic location in form of SMS">
+											<img src="images/g6.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+                                <div class="clearfix"> </div>
+                            </div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="javascript:void(0);" Vclass="swipebox" title="Ride Sharing">
+											<img src="images/g7.jpg" alt="Image 404" class="img-responsive" />
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+	</div>
+	<!--//portfolio-->
+    <!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>Last updated on 20th March 2018
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
 </html>
